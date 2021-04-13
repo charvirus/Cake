@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Type</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript">
+
+    </script>
+</head>
+<body>
+<table border="1">
+    <tr><td>Type</td><td>Count</td></tr>
+    {% for result in results %}
+    <tr><td>{{result[0]}}</td><td>{{result[1]}}</td></tr>
+    {% endfor %}
+</table>
+</body>
+</html>
